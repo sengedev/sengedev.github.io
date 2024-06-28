@@ -1,53 +1,18 @@
+https://www.douyin.com/user/MS4wLjABAAAAR6IiT33YZtUTujGYRNsFxZisVXQLIUBTyMPP7XyE9hA
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title id="detect-title">Loading...</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            checkUserLocation();
-        });
-
-        function checkUserLocation() {
-            fetch('https://ipinfo.io/json')
-                .then(response => response.json())
-                .then(data => {
-                    if (data.country === 'CN') {
-                        document.getElementById('detect-title').innerText = "正在跳转";
-                        document.getElementById('status').innerText = '检测到您的IP地址为中国大陆';
-                        document.getElementById('redirect-message').innerText = '页面正在跳转中，请稍候...';
-                        // 如果用户在中国大陆，则提示页面正在跳转
-                        window.location.href = 'https://senge.dev';
-                    } else {
-                        // 对于其他国家用户，使用多语言提示
-                        document.getElementById('detect-title').innerText = "BLOCKED";
-                        document.getElementById('status').innerText = 'YOU HAVE BEEN BLOCKED';
-                        var message = `检测到您的IP地址不属于中国大陆，您无法访问本站，如果您的地址位于中国大陆，则您可能是开启了代理服务，请您关闭代理服务后重试
-                        偵測到您的IP位址不屬於中國大陸，您無法存取本站，如果您的位址位於中國大陸，您可能是開啟了代理服務，請您關閉代理服務後重試
-                        Detected that your IP address does not belong to the Chinese mainland, you can not access the site, if your address is located in mainland China, you may be the opening of the proxy service, please close the proxy service and try again!
-                        Détecté que votre adresse IP n'appartient pas à la Chine continentale, vous ne pouvez pas accéder au site, si votre adresse est située en Chine continentale, il se peut que vous soyez ouvert le service proxy, veuillez fermer le service proxy et réessayer !
-                        Erkannt, dass Ihre IP-Adresse nicht auf dem Festland von China gehören, können Sie nicht auf die Website zugreifen, wenn Ihre Adresse auf dem chinesischen Festland befindet, können Sie den Proxy-Service zu öffnen, schließen Sie bitte den Proxy-Service und versuchen Sie es erneut!
-                        Обнаружено, что ваш IP-адрес не принадлежит материковой части Китая, вы не можете получить доступ к сайту, если ваш адрес находится в материковом Китае, возможно, у вас открыт прокси-сервис, пожалуйста, закройте прокси-сервис и попробуйте снова!
-                        IP 주소가 중국 본토에 속하지 않는 것으로 감지되어 사이트에 액세스할 수 없으며, 주소가 중국 본토에 있는 경우 프록시 서비스가 열려 있을 수 있으니 프록시 서비스를 닫고 다시 시도하세요!
-                        あなたのIPアドレスが中国本土に属していないことを検出した、あなたがサイトにアクセスすることはできません、あなたのアドレスが中国本土に位置している場合は、プロキシサービスを開いている可能性があり、プロキシサービスを閉じて、再度お試しください！
-                        Detectado que o seu endereço IP não pertence à China continental, não é possível aceder ao sítio. Se o seu endereço estiver localizado na China continental, poderá estar a abrir o serviço de proxy, feche o serviço de proxy e tente novamente!
-                        ¡Detectado que su dirección IP no pertenece a la parte continental de China, no se puede acceder al sitio, si su dirección se encuentra en la parte continental de China, puede ser abrir el servicio proxy, por favor, cierre el servicio proxy y vuelva a intentarlo!
-                        `
-                        document.getElementById('redirect-message').innerText = message;
-                    }
-                })
-                .catch(error => {
-                    console.error('Error checking user location:', error);
-                });
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你干嘛哈嗨哟</title>
+    
+    <script type="text/javascript">
+        window.location.replace("https://www.douyin.com/user/MS4wLjABAAAAK2YTnbrpELzZOTMid1Q89kZLv0ZyiW3APPEtUr4PaMaV_AbFIl0GmWn7NKv3SPo3");
     </script>
 </head>
 <body>
-    <h1 id="status"></h1>
-    <p id="redirect-message"></p>
-    <script>
-        document.getElementById('redirect-message').innerText = '页面正在跳转...';
-    </script>
+    <h1>你干嘛哈哈哎哟</h1>
+    <p>哦呀哈哈Amagi</p>
 </body>
 </html>
-
